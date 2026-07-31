@@ -1,6 +1,6 @@
 # MLP-Based Classification of External Genomes into NPA, PAc, and PAd
 
-This package provides a pretrained multilayer perceptron (MLP) model for classifying bacterial genomes into the NPA, PAc, or PAd category. The model was trained on the known functional-gene feature matrix used in **Fig. 5a** and accepts predicted proteins in FASTA format (`.faa` or `.faa.gz`) as its starting input.
+This package provides a pretrained multilayer perceptron (MLP) model for classifying bacterial genomes into the NPA, PAc, or PAd category. The model was trained on the pathway feature matrix used in **Fig. 5a** and accepts predicted proteins in FASTA format (`.faa` or `.faa.gz`) as its starting input.
 
 The workflow was designed as a lightweight, CPU-compatible option so that it can be used without a GPU. It uses 3,156 gapseq pathway features and achieved an accuracy of approximately 0.8 in our evaluation. For the more accurate (>0.9) protein-structure-based external prediction model, see [CryoClass](https://github.com/ZhuGuoLiang-gi/CryoClass).
 
