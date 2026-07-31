@@ -1,3 +1,1 @@
-将该目录替换为自己的蛋白 FASTA ：每个基因组一个 .faa 或 .faa.gz 文件。
-
-
+Replace this directory with your own protein FASTA: one.faa or.faa.gz file per genome.
