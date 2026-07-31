@@ -1,0 +1,9 @@
+name: gapseq140_pathway
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - gapseq=1.4.0
+  - parallel
+  - pandas
+
